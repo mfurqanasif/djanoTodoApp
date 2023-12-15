@@ -3,9 +3,9 @@
 TOKEN= $1
 USERNAME= "mfurqanasif"
 
-mkdir autoPushFolder2
-cd autoPushFolder
-touch myPythonFile2.py
+mkdir autoPushFolder3
+cd autoPushFolder3
+touch myPythonFile3.py
 echo "print('writing into python file ')" > myPythonFile.py
 
 cd ..
