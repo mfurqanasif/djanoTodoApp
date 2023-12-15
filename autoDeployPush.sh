@@ -1,5 +1,8 @@
 #!/bin/bash 
 
+$TOKEN
+$USERNAME = "mfurqanasif"
+
 mkdir autoPushFolder2
 cd autoPushFolder
 touch myPythonFile2.py
@@ -10,4 +13,6 @@ cd ..
 git add .
 git commit -m "Auotmatic push"
 git push origin main
+git push https://$USERNAME:$TOKEN@github.com/mfurqanasif/djanoTodoApp.git origin main
+
 
