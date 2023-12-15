@@ -1,7 +1,7 @@
 #!/bin/bash 
 
-$TOKEN
-$USERNAME = "mfurqanasif"
+TOKEN = $0
+USERNAME = "mfurqanasif"
 
 mkdir autoPushFolder2
 cd autoPushFolder
@@ -13,6 +13,6 @@ cd ..
 git add .
 git commit -m "Auotmatic push"
 git push origin main
-git push https://$USERNAME:$TOKEN@github.com/mfurqanasif/djanoTodoApp.git origin main
+git push https://USERNAME:TOKEN@github.com/mfurqanasif/djanoTodoApp.git origin main
 
 
