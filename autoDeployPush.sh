@@ -1,6 +1,6 @@
 #!/bin/bash 
 
-TOKEN= $0
+TOKEN= $1
 USERNAME= "mfurqanasif"
 
 mkdir autoPushFolder2
@@ -13,7 +13,8 @@ cd ..
 git add .
 git commit -m "Auotmatic push"
 git push origin main
-echo USERNAME , TOKEN
+echo USERNAME 
+echo TOKEN
 git push "https://${USERNAME}:${TOKEN}@github.com/${USERNAME}/djanoTodoApp.git" origin main
 
 
