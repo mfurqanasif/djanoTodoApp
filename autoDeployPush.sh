@@ -1,7 +1,7 @@
 #!/bin/bash 
 
-TOKEN= $1
-USERNAME= "mfurqanasif"
+TOKEN=$1
+USERNAME="mfurqanasif"
 
 mkdir autoPushFolder3
 cd autoPushFolder3
