@@ -15,6 +15,6 @@ git commit -m "Auotmatic push"
 git push origin main
 echo USERNAME 
 echo TOKEN
-git push "https://${USERNAME}:${TOKEN}@github.com/${USERNAME}/djanoTodoApp.git" main
+git push https://${USERNAME}:${TOKEN}@github.com/${USERNAME}/djanoTodoApp.git main
 
 
